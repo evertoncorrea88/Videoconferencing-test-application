@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF5722">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/icon_profile_double"/>
+
+        <ImageView
+            android:id="@+id/img_phone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_phone"
+            android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
